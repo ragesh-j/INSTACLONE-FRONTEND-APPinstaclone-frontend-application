@@ -1,0 +1,30 @@
+#posting-div{
+    position: absolute;
+    right: 42%;
+    top: 250%;
+    border: 1px solid #707070 ;
+    padding: 20px 20px;
+    border-radius: 12px;
+    background-color: #f8f8f8;
+}
+#posting-div >#file-browse-div{
+    margin-bottom:20px ;
+} 
+#user-detail-div {
+    display: flex;
+    justify-content:space-between;
+    margin-bottom:20px ;
+}
+#Author,#location{
+    width:45%
+}
+#imagePath{
+    width: 80%;
+}
+#post-btn{
+    text-align: center;
+}
+#description-div >input{
+    width: 100%;
+    margin-bottom: 20px;
+}

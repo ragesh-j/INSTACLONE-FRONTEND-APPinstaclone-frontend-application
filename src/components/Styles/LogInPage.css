@@ -1,0 +1,152 @@
+#main-div{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 1;
+
+}
+#nav-bar{
+position: sticky;
+top: 0px;
+left: 0px;
+width: 99.9%;
+opacity: 1;
+border-bottom: 1px solid #4eae85;
+background-color:#FFFFFF;
+z-index: 20;
+}
+
+#title-div{
+    display: inline-block;
+    position: relative;
+    left: 200px;
+}
+
+#title-div > #img-div{
+
+    vertical-align: top;
+    width: fit-content;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+#title-div > #title{
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    margin-left: 64px;
+    font: normal normal normal 64px/85px Palatino;
+    color: #006238;
+    opacity: 1;
+
+
+}
+
+#nav-bar > #nav-camera-icon{
+    position: absolute;
+    top: 17px;
+    right: 200px;
+    margin-bottom: 21px;
+    cursor: pointer;
+}
+
+
+#container{
+    margin: 50px 0 50px 30%;
+    width: 500px;
+    height: 450px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    opacity: 1;
+    box-sizing: border-box;    
+    position: relative;
+}
+#profile-container{
+    position: relative;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+}
+#name-field {
+    margin: 0;
+    margin-top: 10px;;
+    margin-left: 10px;
+     
+    text-align: left;
+    font: normal normal bold 20px/32px Helvetica;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    box-sizing: border-box;
+
+}
+#location-field{
+    margin: 0px 0 10px 10px;
+   
+    margin-left: 12px;
+    text-align: left;
+    font: normal normal normal 14px/15px Verdana;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    
+}
+#more-img{
+    position: absolute;
+    right:15px;
+    top: 18px;
+}
+#image-container{
+   height: 270px;
+   display: flex;
+   position: relative;
+
+}
+
+#image-container >img{
+    position:absolute;
+    width: 100%;
+    
+    height: 100%;
+    left: 0;   
+    top:0;
+    object-fit:cover;
+    
+}
+#image-footer{
+    position: relative;
+    margin-top: 10px ;
+    margin-left: 10px;
+    height: 100px;
+    overflow: hidden;
+}
+#image-footer :first-child{
+    cursor: pointer;
+}
+
+#image-footer :nth-child(2){
+    position:absolute;
+    left:40px;
+    cursor: pointer;
+}
+#image-footer :nth-child(3){
+    position: absolute;
+    top: 0;
+    margin: 0;
+    right: 30px;
+}
+
+#image-footer :last-child{
+    margin: 0;
+    
+}
+
+.hide-btn{
+    display:none
+}
+
+
+
